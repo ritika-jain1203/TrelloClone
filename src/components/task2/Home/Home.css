@@ -1,0 +1,118 @@
+.all-boards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.board-card {
+    font-family: 'Ubuntu', sans-serif;
+    height: 8rem;
+    width: 12rem;
+    margin: 1rem;
+    border-radius: 0.6rem;
+    text-decoration: none;
+    background-size: cover;
+    background-color: teal;
+}
+.link-to-board {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    margin: 2rem;
+    width: 6rem;
+}
+.boards-page-heading {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 1.5rem;
+}
+.add-board:hover {
+    background-color: #bdbdbd;
+}
+.add-board-div {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column-reverse;
+}
+.add-board-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+.add-board-form input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 8rem;
+    background-color: transparent;
+}
+.add-board-form input:focus {
+    outline: none;
+}
+.add-board-form button {
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+.add-board {
+    width: 12rem;
+    margin: 1rem;
+    min-width: 12rem;
+    border-radius: 0.6em;
+    background-color: #ebecf0;
+}
+
+.board-link-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.content-home-page {
+    display: flex;
+    flex-direction: row;
+}
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-between;
+    margin: 5rem;
+}
+.side-bar-content {
+    height: 2rem;
+    width: 9rem;
+    border-radius: 0.3rem;
+}
+.side-bar {
+    height: 8rem;
+}
+.loading-home {
+    margin-top: 10rem;
+    margin-left: 25rem;
+    width: 80rem;
+    height: 30rem;
+}
+.side-bar-content:hover {
+    background-color: hsl(0, 5%, 92%);
+    border-radius: 4px;
+}
+.side-bar-content p {
+    margin: 0.2rem;
+    padding: 0.2rem;
+    color: #172b4d;
+}
+.board-card:hover {
+    opacity: 0.7;
+}
+.board-link-header i:hover {
+    transform: scale(1.4);
+}
+.board-link-header i {
+    margin: 1rem;
+    color: white;
+    width: 1rem;
+    height: 1rem;
+}

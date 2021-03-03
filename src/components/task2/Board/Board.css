@@ -1,0 +1,105 @@
+.loading-board {
+    margin-top: 10rem;
+    margin-left: 25rem;
+    width: 80rem;
+    height: 30rem;
+}
+.board-content::-webkit-scrollbar {
+    display: none;
+    align-items: flex-end;
+}
+.board-content {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin: 2rem;
+    align-items: flex-start;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.board {
+    background-size: cover;
+    min-height: 50rem;
+    width: 80rem;
+    margin: 0;
+    padding: 0;
+}
+.board h3 {
+    margin: 0;
+    padding: 0;
+}
+.board-heading {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: grey;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+.board-heading:hover {
+    opacity: 0.7;
+}
+.wrapper-board-heading {
+    background-color: grey;
+    backdrop-filter: blur(5px);
+    opacity: 0.7;
+}
+.wrapper-board-heading p {
+    margin-left: 2rem;
+}
+.edit--board-form {
+    display: flex;
+    flex-direction: column;
+}
+.edit-board-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+.update-board-button {
+    background-color: #5aac44;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.1rem;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+}
+.cancel-board-button {
+    background-color: #e94b2f;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.1rem;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+    min-height: 1.5rem;
+    min-width: 4rem;
+}
+.add-list-form input:focus {
+    outline: none;
+}
+.add-list:hover {
+    opacity: 0.7;
+}
+.add-list-div {
+    display: flex;
+    margin: 1rem;
+    flex-direction: column-reverse;
+}
+.add-list-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+.add-list-form input {
+    border: 0;
+    background-color: transparent;
+}
+.add-list-form button {
+    border: 0;
+    background-color: transparent;
+}
+.add-list {
+    width: 18rem;
+    margin: 1rem;
+    min-width: 18rem;
+    border-radius: 0.5rem;
+    background-color: #ebecf0;
+}

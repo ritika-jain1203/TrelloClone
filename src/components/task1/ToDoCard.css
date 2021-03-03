@@ -1,0 +1,34 @@
+.to-do-card {
+    color: #f5deb3;
+    width: 300px;
+    background-color: #ce80d8;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.to-do-card p {
+    padding: 10px;
+    position: relative;
+}
+
+.to-do-card p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.far fa-trash-alt {
+    margin: 0;
+    font-size: 15px;
+}
+
+.to-do-card p input {
+    background-color: transparent;
+    border: 0;
+    color: #ffffff;
+    font-size: 18px;
+}
+.to-do-card p input:focus {
+    outline: none;
+}

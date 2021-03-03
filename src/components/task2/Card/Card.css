@@ -1,0 +1,59 @@
+.card {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.wrapper-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #ffffff;
+    min-width: 16rem;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+.wrapper-card i {
+    margin: 1rem;
+}
+.card-heading {
+    text-align: left;
+    margin: 1rem;
+    align-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper-card:hover {
+    background-color: #ffffff85;
+}
+.wrapper-card i:hover {
+    transform: scale(1.2);
+}
+.edit-card-form {
+    display: flex;
+    flex-direction: column;
+}
+.edit-card-buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+.update-card-button {
+    background-color: #5aac44;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.1rem;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+}
+.cancel-card-button {
+    background-color: #e94b2f;
+    border: none;
+    border-radius: 0.2rem;
+    margin: 0.1rem;
+    box-shadow: 0 1px 0 rgb(9 30 66 / 25%);
+    min-height: 1.5rem;
+    min-width: 4rem;
+}

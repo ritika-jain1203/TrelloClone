@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+}
+.left-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 10rem;
+}
+.middle-header {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+.right-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 6rem;
+}
+.trello-heading {
+    margin: 0.4rem;
+}
+.link-to-home {
+    text-decoration: none;
+    color: #fff;
+}
+.trello-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5rem;
+}
